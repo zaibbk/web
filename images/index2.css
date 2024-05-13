@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(245, 245, 238);
+    
+ 
+}
+
+.zero{
+    margin: 40px;
+    margin-top: 25PX;
+    margin-bottom: -50px;
+    display: inline-block;
+    
+    
+    margin-right: 0px;
+}
+
+.zero h1{
+    font-size: 70pt;
+    width: 800px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    margin-top: -40px; 
+
+}
+
+.first img{
+    height: 200px;
+    width: 2oopx;
+    float: left;
+    margin: 40px;
+}
+#kl{
+    font-size: 30pt;
+    border: solid
+    width: 500px;
+}
+.first p{
+    font-size: 13pt;
+    width: 650px;
+}
+
+.first{
+    display: inline-block;
+    margin-right: 100x;
+
+    
+    width: ;
+}
+.second  img{
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 40px;
+}
+.second{
+    position: relative;
+    top: -0px;
+    display: inline-block;
+
+}
+.second > h2{
+    font-size: 30pt;
+    width: 100%;
+}
+.second p{
+    font-size: 13pt;
+    width: 650px; 
+}
+
+footer{
+    float: right;
+    position: relative;
+    top: -20px;
+
+}
+
+span{
+    color: rgb(41, 41, 124);
+}
+
+
+
+@media (max-width: 680px) 
+{ .logo{
+    width: 100px;
+    text-align: center;
+    }
+    
+    
+    .zero h1{
+        width: 100%;
+        font-size: 45pt;
+        text-align: center;
+    }
+    .first{
+        display: block;
+        width: 100%;
+       
+    }
+    .first img{
+        display: inline;
+        object-fit: cover;
+        position: relative;
+        left: -40px;
+        width: 100%;
+    }
+    .first h2{
+        text-align: center;
+    }
+    .second{
+        display: block;
+        width: 100%;
+        
+       
+    }
+    .first p{
+        width: 500px;
+        text-align: center;
+        width: 100%;
+    }
+    .second img{
+        width: 100%;
+        position: relative;
+        left: -40px;
+        object-fit: cover;
+        display: inline;
+    }
+   
+    .second h2{
+        text-align: center;
+        width: 100%
+        
+    }
+    .second p{
+        text-align: center;
+        width: 100%
+
+    }
+    footer{
+        float: right;
+        position: relative;
+        top: 10px;
+    }
+
+}
